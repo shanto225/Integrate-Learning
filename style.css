@@ -1,0 +1,75 @@
+/* Colors from your logo */
+:root {
+    --green: #003322;
+    --gold: #d4af37;
+    --white: #ffffff;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: var(--green);
+    color: var(--gold);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  header {
+    padding: 40px 20px;
+    background-color: var(--green);
+  }
+  
+  .logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #000000; /* black background */
+      
+      
+      
+      
+  }
+  
+  main {
+    padding: 30px 20px;
+  }
+  
+  h1, h2 {
+    color: var(--gold);
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+    font-size: 1.1rem;
+  }
+  
+  button {
+    background-color: var(--gold);
+    color: var(--green);
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #c29c2e;
+  }
+  
+  footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #002a1d;
+    color: var(--gold);
+  }
+  
